@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+body{
+    background-color: #4F7CAC;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(6, 0, 17, 0.733);
+    padding: 1rem;
+    color: #C0E0DE;
+}
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    object-fit: cover;
+    
+}
+
+#rock{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opt1{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+
+#rock:hover{
+    background-color: #9EEFE5;
+}
+
+#paper{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.opt2{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+
+#paper:hover{
+    background-color:  #9EEFE5;
+}
+
+#scissor{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   border-radius: 50%;
+}
+
+.opt3{
+    height: 90px;
+    width: 90px;
+   border-radius: 50%;
+}
+
+#scissor:hover{
+    background-color:  #9EEFE5;
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.user{
+    margin: 2rem;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+}
+
+.comp{
+    margin: 2rem;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+}
+
+.msg{
+    margin-top: 5rem;
+    background-color: #162521;
+    color: #fff;
+     font-size: 2rem;
+     padding: .75rem;
+     display: inline;
+     border-radius: .5rem;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.copy{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: self-end;
+}
